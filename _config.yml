@@ -14,14 +14,16 @@ minima:
     github: hebinalee
 
 markdown: kramdown
-permalink: /:categories/:year/:month/:day/:title/
 future: true
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-paginate
 
-paginate: 5
-paginate_path: "/page:num/"
+show_excerpts: true
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
