@@ -20,10 +20,9 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate
 
-show_excerpts: true
+paginate: 5
+paginate_path: "/page:num/"
 
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
+show_excerpt
