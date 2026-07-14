@@ -1,0 +1,29 @@
+title: From Models to Agents
+description: >-
+  5년차 ML 엔지니어가 LLM과 Agent로 영역을 넓혀가는 기록.
+  모델링과 서빙에서 시작해, 이제는 LLM과 Agent 시스템을 주로 다룹니다.
+author: backpropagent
+github_username: hebinalee
+url: "https://hebinalee.github.io"
+baseurl: ""
+
+theme: minima
+minima:
+  skin: dark
+  social_links:
+    github: hebinalee
+
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+show_excerpts: true
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
