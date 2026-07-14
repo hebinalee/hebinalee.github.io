@@ -15,6 +15,7 @@ minima:
 
 markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title/
+future: true
 
 plugins:
   - jekyll-feed
@@ -24,5 +25,3 @@ plugins:
 
 paginate: 5
 paginate_path: "/page:num/"
-
-show_excerpt
