@@ -1,0 +1,72 @@
+---
+---
+
+@charset "utf-8";
+
+// 커스텀 변수 - minima에서 !default로 선언되어 있어서, import 전에 먼저 지정하면 이 값이 적용됨
+$base-font-family: "KoPubWorld Dotum", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  "Apple SD Gothic Neo", "Malgun Gothic", "Roboto", "Helvetica Neue", sans-serif;
+$base-font-size: 17px;
+$base-line-height: 1.8;
+$spacing-unit: 42px;
+$content-width: 800px;
+
+@import "minima";
+
+/* ---- 여백/구조 보완 ---- */
+
+.site-header {
+  border-top: 5px solid $grey-color-dark;
+  min-height: 80px;
+  padding-top: 10px;
+}
+
+.page-content {
+  padding-top: $spacing-unit * 1.6;
+  padding-bottom: $spacing-unit * 1.6;
+}
+
+.post-content {
+  font-size: 18px;
+
+  h2 {
+    margin-top: $spacing-unit * 1.4;
+    margin-bottom: $spacing-unit / 2;
+  }
+
+  h3 {
+    margin-top: $spacing-unit * 1.2;
+    margin-bottom: $spacing-unit / 2.2;
+  }
+
+  p {
+    margin-bottom: 1.6em;
+  }
+
+  ul, ol {
+    margin-bottom: 1.6em;
+  }
+
+  li {
+    margin-bottom: 0.4em;
+  }
+
+  hr {
+    margin: $spacing-unit * 1.2 0;
+    border: 0;
+    border-top: 1px solid $grey-color-light;
+  }
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+
+  li {
+    margin-bottom: $spacing-unit * 1.3;
+  }
+}
+
+.post-header {
+  margin-bottom: $spacing-unit * 1.2;
+}
