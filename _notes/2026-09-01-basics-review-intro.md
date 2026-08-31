@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "확률·통계, ML 기본기 다시 훑어보기"
-date: 2026-10-07 09:00:00 +0900
+date: 2026-09-01 09:00:00 +0900
 tags: [probability, statistics, ml-fundamentals]
 ---
 
