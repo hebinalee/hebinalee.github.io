@@ -16,6 +16,11 @@ minima:
 markdown: kramdown
 future: true
 
+collections:
+  notes:
+    output: true
+    permalink: /notes/:year/:month/:day/:title/
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
