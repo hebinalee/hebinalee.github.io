@@ -71,14 +71,26 @@ $content-width: 800px;
   margin-bottom: $spacing-unit * 1.2;
 }
 
-/* 홈 화면의 섹션 구분 (LLM/Agent 시리즈, 공부 노트 등) */
-.wrapper > h2 {
-  margin-top: $spacing-unit * 1.6;
-  margin-bottom: $spacing-unit / 2;
-  padding-bottom: $spacing-unit / 4;
-  border-bottom: 2px solid $grey-color-light;
+/* 홈 화면: 두 섹션(LLM/Agent 시리즈, ML 기초)을 나란히 배치 */
+.two-col-sections {
+  display: flex;
+  align-items: flex-start;
+  gap: $spacing-unit * 1.5;
 
-  &:first-child {
+  .col {
+    flex: 1;
+    min-width: 0; // flex item이 내용 때문에 넘치지 않도록
+  }
+
+  h2 {
     margin-top: 0;
+    margin-bottom: $spacing-unit / 2;
+    padding-bottom: $spacing-unit / 4;
+    border-bottom: 2px solid $grey-color-light;
+  }
+
+  @include media-query($on-laptop) {
+    flex-direction: column;
+    gap: $spacing-unit * 1.2;
   }
 }
