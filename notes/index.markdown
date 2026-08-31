@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 공부 노트
+title: ML 기초
 permalink: /notes/
 ---
 

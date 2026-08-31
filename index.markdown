@@ -2,6 +2,9 @@
 layout: default
 ---
 
+<div class="two-col-sections">
+  <div class="col" markdown="1">
+
 ## LLM/Agent 시리즈
 
 <ul class="post-list">
@@ -19,7 +22,10 @@ layout: default
   {% endfor %}
 </ul>
 
-## 공부 노트
+  </div>
+  <div class="col" markdown="1">
+
+## ML 기초
 
 <ul class="post-list">
   {% assign sorted_notes = site.notes | sort: "date" | reverse %}
@@ -36,4 +42,7 @@ layout: default
   {% endfor %}
 </ul>
 
-<p class="rss-subscribe"><a href="{{ "/notes/" | relative_url }}">공부 노트 전체 보기 →</a></p>
+<p class="rss-subscribe"><a href="{{ "/notes/" | relative_url }}">전체 보기 →</a></p>
+
+  </div>
+</div>
