@@ -70,3 +70,15 @@ $content-width: 800px;
 .post-header {
   margin-bottom: $spacing-unit * 1.2;
 }
+
+/* 홈 화면의 섹션 구분 (LLM/Agent 시리즈, 공부 노트 등) */
+.wrapper > h2 {
+  margin-top: $spacing-unit * 1.6;
+  margin-bottom: $spacing-unit / 2;
+  padding-bottom: $spacing-unit / 4;
+  border-bottom: 2px solid $grey-color-light;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
