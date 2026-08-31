@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "가장 작은 형태의 Agent 직접 만들어보기"
-date: 2026-08-05 09:00:00 +0900
+date: 2026-07-26 09:00:00 +0900
 tags: [llm, agent, tool-use, react]
 ---
 

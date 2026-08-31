@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "RAG: 모델을 다시 학습시키지 않고 지식을 넣는 법"
-date: 2026-08-19 09:00:00 +0900
+date: 2026-07-29 09:00:00 +0900
 tags: [llm, rag, retrieval]
 ---
 

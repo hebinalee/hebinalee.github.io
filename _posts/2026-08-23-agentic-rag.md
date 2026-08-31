@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Agentic RAG는 항상 더 나은 선택일까"
-date: 2026-09-23 09:00:00 +0900
+date: 2026-08-23 09:00:00 +0900
 tags: [llm, rag, agent, agentic-rag]
 ---
 

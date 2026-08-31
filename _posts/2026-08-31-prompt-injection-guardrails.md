@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Agent가 도구를 쓰기 시작하면 생기는 문제: 프롬프트 인젝션"
-date: 2026-09-30 09:00:00 +0900
+date: 2026-08-31 09:00:00 +0900
 tags: [llm, agent, security, prompt-injection, guardrails]
 ---
 

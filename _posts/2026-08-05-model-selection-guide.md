@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "모델 선택 가이드: 오픈소스로 직접 띄울까, API를 쓸까"
-date: 2026-09-02 09:00:00 +0900
+date: 2026-08-05 09:00:00 +0900
 tags: [llm, model-selection, cost, infra]
 ---
 

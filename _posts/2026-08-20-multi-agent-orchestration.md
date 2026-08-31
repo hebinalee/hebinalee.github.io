@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "멀티 에이전트 협업, 정말 필요한가"
-date: 2026-09-16 09:00:00 +0900
+date: 2026-08-20 09:00:00 +0900
 tags: [llm, agent, orchestration, multi-agent]
 ---
 

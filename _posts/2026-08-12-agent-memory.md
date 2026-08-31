@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Agent는 무엇을, 얼마나 오래 기억해야 할까"
-date: 2026-09-09 09:00:00 +0900
+date: 2026-08-12 09:00:00 +0900
 tags: [llm, agent, memory, context]
 ---
 

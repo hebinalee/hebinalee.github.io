@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "LLM/Agent를 어떻게 평가할 것인가"
-date: 2026-08-26 09:00:00 +0900
+date: 2026-08-01 09:00:00 +0900
 tags: [llm, agent, rag, evaluation]
 ---
 

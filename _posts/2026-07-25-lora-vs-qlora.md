@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "LoRA와 QLoRA로 직접 파인튜닝해본 기록"
-date: 2026-07-29 09:00:00 +0900
+date: 2026-07-25 09:00:00 +0900
 tags: [llm, fine-tuning, lora, qlora]
 ---
 
