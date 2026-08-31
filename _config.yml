@@ -21,6 +21,11 @@ collections:
     output: true
     permalink: /notes/:year/:month/:day/:title/
 
+header_pages:
+  - about.markdown
+  - notes/index.markdown
+  - llm-agent/index.markdown
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
