@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ML 기초
+title: 기초 다지기
 permalink: /notes/
 ---
 

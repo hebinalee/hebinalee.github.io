@@ -27,7 +27,7 @@ layout: default
   </div>
   <div class="col" markdown="1">
 
-## ML 기초
+## 기초 다지기
 
 <ul class="post-list">
   {% assign sorted_notes = site.notes | sort: "date" | reverse %}
