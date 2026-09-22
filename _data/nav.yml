@@ -1,0 +1,36 @@
+# 사이드바 2단계 메뉴 정의
+# 대주제(게시판)를 추가하려면 아래 형식으로 블록을 하나 더 쓰면 됩니다.
+#   - title: 표시될 이름
+#     url: /경로/          (해당 게시판 목록 페이지)
+#     collection: posts | notes | (새 컬렉션 이름)
+#     sections:            (하위 게시판. 글 front matter의 section 값과 key를 맞춥니다)
+#       - label: 표시될 이름
+#         key: front-matter에 쓸 값
+
+- title: LLM/Agent
+  url: /llm-agent/
+  collection: posts
+  sections:
+    - label: 시작하며
+      key: intro
+    - label: 서빙·인프라
+      key: serving
+    - label: 파인튜닝
+      key: finetuning
+    - label: Agent
+      key: agent
+    - label: RAG
+      key: rag
+    - label: 평가·보안
+      key: eval-safety
+
+- title: 기초 다지기
+  url: /notes/
+  collection: notes
+  sections:
+    - label: 시작하며
+      key: intro
+    - label: 확률·통계
+      key: probability
+    - label: ML 개념
+      key: ml-concepts

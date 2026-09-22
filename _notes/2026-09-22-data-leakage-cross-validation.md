@@ -3,6 +3,7 @@ layout: post
 title: "데이터 누수: 검증 점수가 좋아지는데도 문제인 이유"
 date: 2026-09-22 09:00:00 +0900
 tags: [machine-learning, ml-fundamentals, data-leakage, cross-validation]
+section: ml-concepts
 ---
 
 대부분의 버그는 에러를 내거나 성능을 떨어뜨리기 때문에 금방 드러납니다. 데이터 누수(data leakage)는 반대입니다. 검증 점수가 **올라갑니다**. 눈에 보이는 신호가 전부 "잘 되고 있다"는 방향을 가리키기 때문에, 배포하고 나서야 문제가 드러나는 경우가 많습니다.

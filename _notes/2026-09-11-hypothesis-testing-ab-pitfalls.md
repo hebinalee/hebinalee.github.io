@@ -3,6 +3,7 @@ layout: post
 title: "가설검정과 A/B 테스트의 함정: p-value는 무엇이 아닌가"
 date: 2026-09-11 09:00:00 +0900
 tags: [probability, statistics, hypothesis-testing, ab-test]
+section: probability
 ---
 
 "p-value가 0.03이니까 이 실험안이 더 좋을 확률이 97%네요." 회의에서 이런 문장이 나오면 넘어가기 쉽지만, 여기엔 틀린 부분이 있습니다. p-value는 가설이 맞을 확률이 아닙니다. 이 오해가 왜 생기는지, 그리고 실제 A/B 테스트에서 어떤 방식으로 결과를 망가뜨리는지 정리해봤습니다.

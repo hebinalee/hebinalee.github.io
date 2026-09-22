@@ -1,0 +1,26 @@
+<nav class="sidebar-nav" aria-label="게시판 메뉴">
+  {%- for board in site.data.nav -%}
+  {%- assign docs = site[board.collection] -%}
+  {%- assign is_active = false -%}
+  {%- if page.collection == board.collection or page.url contains board.url -%}
+    {%- assign is_active = true -%}
+  {%- endif -%}
+  <div class="sidebar-board{% if is_active %} is-active{% endif %}">
+    <a class="board-link" href="{{ board.url | relative_url }}">{{ board.title }}</a>
+    {%- if board.sections -%}
+    <ul class="board-sections">
+      {%- for sec in board.sections -%}
+      {%- assign sec_docs = docs | where: "section", sec.key -%}
+      {%- if sec_docs.size > 0 -%}
+      <li{% if is_active and page.section == sec.key %} class="is-current"{% endif %}>
+        <a href="{{ board.url | append: '#' | append: sec.key | relative_url }}">
+          {{ sec.label }}<span class="count">{{ sec_docs.size }}</span>
+        </a>
+      </li>
+      {%- endif -%}
+      {%- endfor -%}
+    </ul>
+    {%- endif -%}
+  </div>
+  {%- endfor -%}
+</nav>

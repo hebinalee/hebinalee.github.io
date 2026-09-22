@@ -3,6 +3,7 @@ layout: post
 title: "편향-분산 트레이드오프, 그리고 딥러닝에서 깨지는 지점"
 date: 2026-09-14 09:00:00 +0900
 tags: [machine-learning, ml-fundamentals, bias-variance, regularization]
+section: ml-concepts
 ---
 
 학습 데이터에서는 잘 맞는데 실제 데이터에서는 성능이 뚝 떨어지는 모델, 반대로 학습 데이터에서조차 제대로 맞히지 못하는 모델. 둘 다 "성능이 안 나온다"는 같은 증상이지만 원인도 처방도 정반대입니다. 이 둘을 구분하는 틀이 편향-분산 분해입니다.

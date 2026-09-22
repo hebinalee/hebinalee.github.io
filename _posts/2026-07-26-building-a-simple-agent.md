@@ -3,6 +3,7 @@ layout: post
 title: "가장 작은 형태의 Agent 직접 만들어보기"
 date: 2026-07-26 09:00:00 +0900
 tags: [llm, agent, tool-use, react]
+section: agent
 ---
 
 "Agent"라는 말은 자주 쓰이지만, 정확히 어디서부터 Agent라고 부를 수 있는지는 늘 막연했습니다. 그 경계를 확인해보려고, tool use 하나만 붙인 가장 작은 형태로 직접 만들어봤습니다.

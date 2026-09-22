@@ -3,6 +3,7 @@ layout: post
 title: "LLM/Agent를 어떻게 평가할 것인가"
 date: 2026-08-01 09:00:00 +0900
 tags: [llm, agent, rag, evaluation]
+section: eval-safety
 ---
 
 지난 몇 편에 걸쳐 두 가지 질문을 계속 미뤄왔습니다. RAG 글에서는 "검색과 생성을 분리해서 평가해야 한다"고 짚고 넘어갔고, Agent 글에서는 "이게 잘 작동하는지 어떻게 확인하나"라는 질문을 남겨뒀습니다. 이번 글에서 이 두 질문을 한 번에 다뤄보려 합니다.

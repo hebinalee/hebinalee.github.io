@@ -3,6 +3,7 @@ layout: post
 title: "정확도 99% 모델의 함정: 분류 지표 제대로 고르기"
 date: 2026-09-20 09:00:00 +0900
 tags: [machine-learning, ml-fundamentals, metrics, evaluation]
+section: ml-concepts
 ---
 
 정확도 99%짜리 모델을 만드는 가장 쉬운 방법은, 전체의 1%만 양성인 데이터에서 무조건 "음성"이라고 답하게 하는 것입니다. 아무것도 학습하지 않은 모델이 그럴듯한 숫자를 받아가는 이 상황이, 지표를 잘못 고르면 어떤 일이 벌어지는지 가장 압축적으로 보여줍니다.

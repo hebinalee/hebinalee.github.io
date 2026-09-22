@@ -3,6 +3,7 @@ layout: post
 title: "모델 선택 가이드: 오픈소스로 직접 띄울까, API를 쓸까"
 date: 2026-08-05 09:00:00 +0900
 tags: [llm, model-selection, cost, infra]
+section: serving
 ---
 
 새 프로젝트를 시작할 때마다 같은 질문과 마주칩니다. 오픈소스 모델을 직접 서빙할지, 아니면 API를 그대로 쓸지. 지난 글들에서 서빙과 파인튜닝, Agent, RAG를 다뤘지만 정작 "어떤 모델을 쓸 것인가"는 다루지 않았어서, 이번엔 그 기준을 정리해봤습니다.

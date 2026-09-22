@@ -3,6 +3,7 @@ layout: post
 title: "LoRA와 QLoRA로 직접 파인튜닝해본 기록"
 date: 2026-07-25 09:00:00 +0900
 tags: [llm, fine-tuning, lora, qlora]
+section: finetuning
 ---
 
 8B급 모델 하나를 전체 파인튜닝하려면 GPU 메모리가 100GB를 훌쩍 넘습니다. 이 벽을 넘는 두 가지 방법, LoRA와 QLoRA를 오픈소스 모델로 직접 비교해봤습니다.

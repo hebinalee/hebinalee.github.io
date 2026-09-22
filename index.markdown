@@ -8,8 +8,8 @@ layout: default
 ## LLM/Agent 시리즈
 
 <ul class="post-list">
-  {% assign sorted_posts = site.posts | sort: "date" | reverse %}
-  {% for post in sorted_posts %}
+  {% assign recent_posts = site.posts | sort: "date" | reverse %}
+  {% for post in recent_posts limit: 5 %}
   <li>
     <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
     <h3>
@@ -17,7 +17,6 @@ layout: default
         {{ post.title | escape }}
       </a>
     </h3>
-    {% if site.show_excerpts %}{{ post.excerpt }}{% endif %}
   </li>
   {% endfor %}
 </ul>
@@ -30,8 +29,8 @@ layout: default
 ## 기초 다지기
 
 <ul class="post-list">
-  {% assign sorted_notes = site.notes | sort: "date" | reverse %}
-  {% for doc in sorted_notes %}
+  {% assign recent_notes = site.notes | sort: "date" | reverse %}
+  {% for doc in recent_notes limit: 5 %}
   <li>
     <span class="post-meta">{{ doc.date | date: "%b %-d, %Y" }}</span>
     <h3>
@@ -39,7 +38,6 @@ layout: default
         {{ doc.title | escape }}
       </a>
     </h3>
-    {% if site.show_excerpts %}{{ doc.excerpt }}{% endif %}
   </li>
   {% endfor %}
 </ul>

@@ -3,6 +3,7 @@ layout: post
 title: "조건부 확률과 베이즈 정리: P(A|B)와 P(B|A)는 다르다"
 date: 2026-09-06 09:00:00 +0900
 tags: [probability, statistics, bayes-theorem]
+section: probability
 ---
 
 확률·통계를 다시 훑어보면서 가장 먼저 헷갈렸던 부분이 이거였습니다. P(A|B)와 P(B|A)는 분명 다른 값인데, 말로 풀어놓으면 은근히 같은 것처럼 읽힙니다. "이 병에 걸렸을 때 양성이 나올 확률"과 "양성이 나왔을 때 이 병에 걸렸을 확률"은 전혀 다른 질문인데도요.

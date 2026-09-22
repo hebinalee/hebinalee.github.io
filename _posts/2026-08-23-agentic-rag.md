@@ -3,6 +3,7 @@ layout: post
 title: "Agentic RAG는 항상 더 나은 선택일까"
 date: 2026-08-23 09:00:00 +0900
 tags: [llm, rag, agent, agentic-rag]
+section: rag
 ---
 
 Agentic RAG가 이름부터 더 발전된 형태처럼 들려서 당연히 더 낫다고 생각했는데, 최근 연구들을 찾아보니 이야기가 좀 다릅니다. RAG 글에서 다룬 검색-생성 파이프라인과, Agent 글들에서 다룬 "스스로 판단하는 루프"가 만나는 지점이 Agentic RAG인데, 이 둘을 합친다고 항상 이득인 건 아니라는 게 이번 글의 결론입니다.

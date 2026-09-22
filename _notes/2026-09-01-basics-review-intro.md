@@ -3,6 +3,7 @@ layout: post
 title: "확률·통계, ML 기본기 다시 훑어보기"
 date: 2026-09-01 09:00:00 +0900
 tags: [probability, statistics, ml-fundamentals]
+section: intro
 ---
 
 LLM과 Agent 위주로 글을 써왔지만, 최근엔 확률·통계와 ML 기본기를 처음부터 차근차근 다시 훑어보고 있습니다. 계속 다루다 보면 오히려 당연하게 넘어가게 되는 기초 개념들을, 이 기회에 하나씩 다시 정리해두려 합니다.

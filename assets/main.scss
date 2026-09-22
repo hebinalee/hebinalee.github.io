@@ -9,7 +9,7 @@ $base-font-family: "KoPubWorld Dotum", -apple-system, BlinkMacSystemFont, "Segoe
 $base-font-size: 17px;
 $base-line-height: 1.8;
 $spacing-unit: 42px;
-$content-width: 800px;
+$content-width: 1100px;   // 사이드바 + 본문 공간
 
 @import "minima";
 
@@ -92,5 +92,101 @@ $content-width: 800px;
   @include media-query($on-laptop) {
     flex-direction: column;
     gap: $spacing-unit * 1.2;
+  }
+}
+
+/* ---- 좌측 사이드바 (2단계 게시판 메뉴) ---- */
+
+.layout-with-sidebar {
+  display: flex;
+  align-items: flex-start;
+  gap: $spacing-unit;
+}
+
+.site-sidebar {
+  flex: 0 0 190px;
+  position: sticky;
+  top: $spacing-unit / 2;
+  font-size: 15px;
+}
+
+.content-area {
+  flex: 1;
+  min-width: 0;
+}
+
+.sidebar-board {
+  margin-bottom: $spacing-unit / 1.4;
+
+  > .board-link {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  &.is-active > .board-link {
+    color: $brand-color;
+  }
+}
+
+.board-sections {
+  list-style: none;
+  margin: 0;
+  padding-left: 12px;
+  border-left: 2px solid $grey-color-light;
+
+  li {
+    margin-bottom: 7px;
+    line-height: 1.4;
+  }
+
+  a {
+    color: $grey-color;
+
+    &:hover {
+      color: $brand-color;
+      text-decoration: none;
+    }
+  }
+
+  .count {
+    color: $grey-color-light;
+    font-size: 13px;
+    margin-left: 5px;
+  }
+
+  li.is-current > a {
+    color: $brand-color;
+    font-weight: 600;
+  }
+}
+
+/* 목록 페이지의 하위 게시판 제목 */
+.section-heading {
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit / 2.5;
+  padding-bottom: 6px;
+  border-bottom: 1px solid $grey-color-light;
+  font-size: 22px;
+}
+
+@include media-query($on-laptop) {
+  .layout-with-sidebar {
+    flex-direction: column;
+    gap: $spacing-unit / 1.5;
+  }
+
+  .site-sidebar {
+    position: static;
+    flex: none;
+    width: 100%;
+  }
+
+  .board-sections {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 14px;
+    border-left: 0;
+    padding-left: 0;
   }
 }
